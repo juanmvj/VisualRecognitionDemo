@@ -5,7 +5,7 @@ from watson_developer_cloud import VisualRecognitionV3
 def conexion():
 	visual_recognition = VisualRecognitionV3(
 	    '2016-05-20',
-	    api_key='cbe5e028e471661d99c7e6a3c985c00f2b6aa562')
+	    api_key='{API KEY}')
 
 	file = filedialog.askopenfilename(filetypes =( ("JPEG","*.jpeg"),("JPG","*.jpg") ,("All files", "*.*")))
 	
@@ -26,7 +26,7 @@ def conexion():
 def clasificar():
 	visual_recognition = VisualRecognitionV3(
     '2016-05-20',
-    api_key='cbe5e028e471661d99c7e6a3c985c00f2b6aa562')
+    api_key='{API KEY}')
 
 
 	f1 = filedialog.askopenfilename(filetypes =( ("JPEG","*.jpeg"),("All files","*.*") ))
